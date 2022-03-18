@@ -1,7 +1,7 @@
 let express = require('express'),
 cors = require('cors'),
 secure = require('ssl-express-www');
-let PORT = process.env.PORT || 8080 || 5000 || 3000
+let PORT = process.env.PORT || 80 || 5000 || 3000
 let { color } = require('./lib/color.js')
 
 let mainrouter = require('./routes/main'),
